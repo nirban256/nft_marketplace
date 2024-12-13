@@ -1,12 +1,14 @@
 import './App.css';
-import { Button } from "@/components/ui/button";
+import Navbar from './components/Navbar';
+import Layout from './components/Layout';
 
 function App() {
 
   return (
-    <>
-      <Button variant="outline">Button</Button>
-    </>
+    <div className='text-white'>
+      <Navbar />
+      <Layout />
+    </div>
   )
 }
 
